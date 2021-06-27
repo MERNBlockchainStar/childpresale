@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+<head>
+	<meta charset="utf-8">
+<meta name="author" content="Softnio">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<!-- Fav Icon  -->
+<link rel="shortcut icon" href="images/childtoken_logo.png">
+<!-- Site Title  -->
+<title>CHLD Airdrop & Presale </title>
+<!-- Bundle and Base CSS -->
+<link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930">
+<link rel="stylesheet" href="assets/css/style-azalea.css?ver=1930" id="changeTheme">
+<!-- Extra CSS -->
+<link rel="stylesheet" href="assets/css/theme.css?ver=1930">
+
+     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0N51P440BQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0N51P440BQ');
+</script>
+
+</head>
+
+
+    <body class="nk-body body-wider bg-theme ">
+ 
+	<div class="nk-wrap">
+		<header class="nk-header page-header is-transparent is-sticky is-dark" id="header">
+		    <!-- Header @s -->
+			<div class="header-main">
+				<div class="header-container container container-xxl">
+					<div class="header-wrap">
+						<!-- Logo @s -->
+						<div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
+							<a href="./" class="logo-link">
+								<img class="logo-dark" src="images/title.png" srcset="title.png 2x" alt="logo">
+								<img class="logo-light" src="images/title.png" srcset="images/title.png 2x" alt="logo">
+							</a>
+						</div>
+
+						<!-- Menu Toogle @s -->
+						<div class="header-nav-toggle">
+							<a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
+                                <div class="toggle-line">
+                                    <span></span>
+                                </div>
+                            </a>
+						</div>
+
+						<!-- Menu @s -->
+						<div class="header-navbar animated" data-animate="fadeInDown" data-delay=".6">
+							<nav class="header-menu" id="header-menu">
+								<ul class="menu">
+									<li class="menu-item"><a class="menu-link nav-link" href="#header">Home</a></li>
+									<li class="menu-item"><a class="menu-link nav-link" href="#about">About</a></li>
+									<li class="menu-item"><a class="menu-link nav-link" href="#ecosystems">Ecosystems</a></li>
+									<li class="menu-item"><a class="menu-link nav-link" href="#tokensale">Tokens</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">Roadmap</a></li>
+			                        <li class="menu-item"><a class="menu-link nav-link" href="./lightpaper.pdf">Whitepaper</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="https://bscscan.com/token/0x4695e4dd1e3011045573f6e16dc162687cdbac44">Smart Contract</a></li>
+									<li class="menu-item"><a class="menu-link nav-link" href="#setting">Setting</a></li>
+								</ul>
+							</nav>
+						</div><!-- .header-navbar @e -->
+					</div>                                                
+				</div>
+			</div><!-- .header-main @e -->
+
+            <div class="banner banner-fs tc-light">
+
+                <div class="nk-block nk-block-header nk-block-sm my-auto">
+                    <div class="container pt-5">
+                        <div class="banner-caption text-center">
+                              <h1 class="title title-xl-2 ttu animated" data-animate="fadeInUp" data-delay="0.7">CHILD TOKEN</h1>
+                            <!-- <h1 class="title title-xl-2 ttu animated" data-animate="fadeInUp" data-delay="0.7">Achieve privacy, high assurance and frictionless computation with blockchain infrastructure</h1>
+                            <div class="row justify-content-center pb-3">
+                                <div class="col-sm-11 col-xl-11 col-xxl-8">
+                                    <p class="lead animated" data-animate="fadeInUp" data-delay="0.8">The first decentralized Marketplace which makes simplifies and standarizes data with blockchain technology. </p>
+                                </div>
+                            </div> -->
+                            <div class = "col-lg-3 order-lg-last">
+                                
+                            </div>
+                            <div class="col-lg-9 order-lg-last">
+                                <div class="gfx py-10 animated" data-animate="fadeInUp" data-delay="0.3">
+                                     <img src="images/childtoken_logo.png" alt="gfx">
+                                 </div>
+                            </div>
+                            <div class="cpn-action">
+                                <ul class="btn-grp mx-auto">
+                                    <li class="animated" data-animate="fadeInUp" data-delay="0.9"><a href="#presale" class="btn btn-primary btn-round">Airdrop</a></li>
+                                    <li class="animated" data-animate="fadeInUp" data-delay="1"><a href="#presale" class="menu-link btn btn-round btn-outline btn-primary">TOKEN BUY</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-block nk-block-status">
+                    <div class="container container-xxl">
+                        <div class="row gutter-vr-40px justify-content-between">
+                            <div class="col-xxl-6 col-xl-5 col-lg-5">
+                                <div class="progress-wrap progress-wrap-point animated" data-animate="fadeInUp" data-delay="0.8">
+                                    <ul class="progress-info progress-info-s2">
+                                        <li>Raised -  
+                                            <span id = "raised">
+                                                0BNB
+                                            </span>
+                                        </li>
+                                        <li class="text-right">Target - <span id= "target">$50,000</span></li>
+                                    </ul>
+                                    <div class="progress-bar progress-bar-xs">
+                                        <div class="progress-percent progress-percent-s2" data-percent="0" id="progressbar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-5 col-xl-6 col-lg-7 text-center text-sm-left">
+                                <div class="row justify-content-around gutter-vr-30px">
+                                    <div class="col-sm-4 col-md-6 col-lg-4 col-xl-5">
+                                    </div>
+                                    <div class="col-sm-8 col-md-6 col-lg-7 col-xl-7">
+                                        <div class="status-countdown float-sm-right animated" data-animate="fadeInUp" data-delay="1">
+                                            <h6 class="title title-xxs tc-default status-title ttu">The Presale ends in</h6>
+                                            <div class="countdown justify-content-center justify-content-sm-start countdown-s3 countdown-s3-alt" data-date="2021/07/10" data-min-text="Minutes" data-sec-text="Seconds" id = "enddate"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Place Particle Js -->
+		        <div id="particles-bg" class="particles-container is-fixed particles-bg op-20"></div>
+            </div>
+			
+		</header>
+    
+        <main class="nk-pages tc-light">
+        
+            <section class="section" id="about">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="What and Why">ABOUT</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="row justify-content-between align-items-center gutter-vr-40px">
+                           <div class="col-lg-6 order-lg-last">
+                               <div class="gfx py-4 animated" data-animate="fadeInUp" data-delay="0.2">
+                                    <img src="images/azalea/gfx-e.png" alt="gfx">
+                                </div>
+                           </div>
+                            <div class="col-lg-5">
+                                <div class="nk-block-text">
+                                    <h2 class="title animated" data-animate="fadeInUp" data-delay="0.3">We build fully Decentralized Marketplace that Augment Access to Blockchain Technologies</h2>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.4">We have developed a state-of-the-art marketplace where you can securely and reliably buy and sell any items.  The fastest and most flexible asset platform in existence. It will include easy cryptocurrency payments integration, and even a digital arbitration system. </p>
+                                    <p class="animated" data-animate="fadeInUp" data-delay="0.5">At the end, Our aims to integrate all companies, employees, and business assets into a unified blockchain ecosystem, which will make business truly efficient, transparent, and reliable.</p>
+                                    <ul class="btn-grp gutter-vr-20px pdt-m">
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.6"><a href="./lightpaper.pdf" class="menu-link btn btn-primary btn-round btn-lg"><span>White Paper</span> <em class="icon ti ti-arrow-down"></em></a></li>
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.7"><a href="#ecosystems" class="menu-link btn btn-underline">See the Ecosystems</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- // -->
+            <section class="section" id="ecosystems">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Core Ecosystems">ECOSYSTEMS</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="row text-center align-items-lg-start gutter-vr-40px">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="feature feature-s6 feature-s6-1 animated" data-animate="fadeInUp" data-delay="0.3">
+                                    <div class="feature-text">
+                                        <h5 class="title title-sm ttu">ONE MARKETPLACE</h5>
+                                        <p>One International Marketplace that combines online store and services around the world. Buy any goods or services with our tokens.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="feature feature-s6 feature-s6-2 animated" data-animate="fadeInUp" data-delay="0.4">
+                                    <div class="feature-text">
+                                        <h5 class="title title-sm ttu">Transparency and Trust</h5>
+                                        <p>One International Marketplace that combines online store and services around the world. Buy any goods or services with our tokens.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="feature feature-s6 feature-s6-3 animated" data-animate="fadeInUp" data-delay="0.5">
+                                    <div class="feature-text">
+                                        <h5 class="title title-sm ttu">Blockchain Based Profiles</h5>
+                                        <p>One International Marketplace that combines online store and services around the world. Buy any goods or services with our tokens.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="feature feature-s6 feature-s6-4 animated" data-animate="fadeInUp" data-delay="0.6">
+                                    <div class="feature-text">
+                                        <h5 class="title title-sm ttu">PAYMENT FLEXIBILITY</h5>
+                                        <p>One International Marketplace that combines online store and services around the world. Buy any goods or services with our tokens.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-image bg-contain bg-bottom-center bg-ecosystems animated d-none d-sm-block" data-animate="fadeInUp" data-delay="0.2">
+                            <img src="images/globe-particle.png" alt="globe">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- // -->
+            <section class="section" id="tokensale">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Token Details">TOKENS</h2>
+                                <p class="animated" data-animate="fadeInUp" data-delay="0.2">Breakdown of our Token Recipients.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="row align-items-center gutter-vr-50px">
+                            <div class="col-xxl-4 col-lg-6 px-xl-5 order-xl-1">
+                            </div>
+
+                        </div>
+                            <div class="col-xxl col-xl-12 order-last">
+                                <div class="token-info-s2">
+                                    <div class="row gutter-vr-50px">
+                                        <div class="col-16 col-xxl-16 col-lg-4">
+                                            <div class="token-info-item color-1 animated" data-animate="fadeInUp" data-delay="0.7">
+                                                <div class="token-info-title" >Start Time</div>
+                                                <h4 class="token-info-des" id = "starttime">16 June, 2021</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-xxl-6 col-lg-4">
+                                            <div class="token-info-item color-1 animated" data-animate="fadeInUp" data-delay="0.7">
+                                                <div class="token-info-title">Token Symbol</div>
+                                                <h4 class="token-info-des">CHL</h4>
+                                            </div>
+                                        </div>
+                                             <div class="col-6 col-xxl-6 col-lg-4">
+                                            <div class="token-info-item color-1 animated" data-animate="fadeInUp" data-delay="0.7">
+                                                <div class="token-info-title">Token Supply</div>
+                                                <h4 class="token-info-des" id = "totalsupply">10,000,000 CHL</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-xxl-6 col-lg-4">
+                                            <div class="token-info-item color-2 animated" data-animate="fadeInUp" data-delay="0.75">
+                                                <div class="token-info-title">End Time</div>
+                                                <h4 class="token-info-des" id = "endtime">30 July, 2021</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-xxl-6 col-lg-4">
+                                            <div class="token-info-item color-4 animated" data-animate="fadeInUp" data-delay="0.85">
+                                                <div class="token-info-title">Crowdsale</div>
+                                                <h4 class="token-info-des">20.5 K</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-xxl-6 col-lg-4">
+                                            <div class="token-info-item color-5 animated" data-animate="fadeInUp" data-delay="0.9">
+                                                <div class="token-info-title">Hard Cap</div>
+                                                <h4 class="token-info-des" id = "hardcap">50.0 K</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-xxl-6 col-lg-4">
+                                            <div class="token-info-item color-5 animated" data-animate="fadeInUp" data-delay="0.9">
+                                                <div class="token-info-title">Hard Cap</div>
+                                                <h4 class="token-info-des">50.0 K</h4>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- // -->
+             <section class="section " id="presale">
+                <div class="container container-xxl">
+                <div class="nk-block ">
+                <div class="row justify-content-center gutter-vr-30px">
+                    <div class="col-lg-6 col-md-10">
+
+                        <div class="feature feature-s3 ">
+                            <h4 class="title title-md mb-2 text-sm-center">CHILD COIN Will be listed on Hotbit and pancakeswap exchange after Presale end.</h4>
+                            <label class="field-label">Enter BNB</label>
+                            <div class="field-wrap">
+                            <input id="buyinput" type="text" class="input-bordered" required="required" placeholder="0.05" style="text-align: center; color: #7F5D54" value="0.05"></div>
+                            <br>
+                            <center><a href="javascript:void(0)" id="airbtn" onclick="buystt()" class="btn btn-primary btn-auto btn-md">BUY TOKEN</a></center>
+                            <br>
+                            <center><a href="javascript:void(0)" id="airbtn" onclick="getAirdrop()" class="btn btn-primary btn-auto btn-md">Claim Airdrop</a>
+                                        </center>
+                            <br>
+                            <center><a href="javascript:void(0)" id="airbtn" onclick="addToWallet()" class="btn btn-primary btn-auto btn-md">Add to Metamask</a>
+                                        </center>
+                            <br>
+                            <p>(*) Rate Sale: 0.05 BNB = 250 CHLD</p>
+                            <p>(*) Minium buy 0.1 BNB - 10 BNB</p>
+                            <p>(*) Your friends who buy through your link receive 100% commission.</p>
+                        </div>
+                    </div>
+                <div class="col-lg-6 col-md-10">
+                <div class="feature feature-s3">
+                    <h4 class="title title-md mb-2 text-sm-center">Refer your friends and claim bonus</h4>
+                    <label class="field-label">Enter Address BSC Adderess</label>
+                    <div class="field-wrap">
+                    <input id="refaddress" type="text" class="input-bordered" required="required" placeholder="Enter You BEP20 Address" style="text-align: center; color: red">
+                    <a href="javascript:copyToClipboard(&#39;refaddress&#39;)" style="float: right; font-size: 14px; text-decoration: underline;">Copy</a>
+                    </div>
+                    <br>
+                    <center><a href="javascript:void(0)" class="btn btn-grad btn-auto btn-md" onclick="getreflink()">Get Referral Link</a></center>
+                    <input id="airinput" type="text" class="form-control" value="" required="required" placeholder="Referrer Id" hidden="">
+                            <br>
+                    <p>(*) Referral friend claim 2 CHLD</p>
+                    <p>(*) You receive 2 CHLD</p>
+                    <p>(*) Referral no limit bonus.</p>
+                    </div></div>
+                            <!-- .col --><!-- .col --><!-- .col --></div><!-- .row --></div><!-- .block @e -->
+                    </div>
+            </section>
+            <section class="section" id="roadmap">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Timeline">ROADMAP</h2>
+                                <p class="animated" data-animate="fadeInUp" data-delay="0.2">Child Coin Network is a global data-driven platform for the world. Powered by binance smartchain blockchain</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="roadmap-wrap roadmap-wrap-ovl-right text-center animated" data-animate="fadeInUp" data-delay="0.3">
+                            <div class="roadmap-line-s2"></div>
+                            <div class="roadmap-slider has-carousel carousel-nav-center" data-blank="true" data-items="5" data-items-tab-l="4" data-items-tab-p="3" data-items-mobile="2" data-margin="-1" data-navs="true">
+                                <div class="roadmap roadmap-s2 roadmap-i1 roadmap-finished">
+                                    <h6 class="roadmap-year-s2">Q1 2021</h6>
+                                    <h5 class="title title-sm roadmap-date">Jan - March 2021</h5>
+                                    <div class="roadmap-text">
+                                        <p>Creation of a decentralize martketplace to neural network adjacent coefficients.</p>
+                                    </div>
+                                </div>
+                                <div class="roadmap roadmap-s2 roadmap-i2 roadmap-running">
+                                    <h6 class="roadmap-year-s2">Q2 2021</h6>
+                                    <h5 class="title title-sm roadmap-date">April - May 2021</h5>
+                                    <div class="roadmap-text">
+                                        <p>Start of the ICO Crypto Platform Development and Introduction of advertiser auctions</p>
+                                    </div>
+                                </div>
+                                <div class="roadmap roadmap-s2 roadmap-i3">
+                                    <h6 class="roadmap-year-s2">Q3 2021</h6>
+                                    <h5 class="title title-sm roadmap-date">June - July 2021</h5>
+                                    <div class="roadmap-text">
+                                        <p>Start Private Token Sale Round to our contributors.</p>
+                                    </div>
+                                </div>
+                                <div class="roadmap roadmap-s2 roadmap-i4">
+                                    <h6 class="roadmap-year-s2">Q4 2021</h6>
+                                    <h5 class="title title-sm roadmap-date">Nov - Dec 2021</h5>
+                                    <div class="roadmap-text">
+                                        <p>Launch of the mobile Best versions of the Publisher application and Press Tour.</p>
+                                    </div>
+                                </div>
+                                <div class="roadmap roadmap-s2 roadmap-i5">
+                                    <h6 class="roadmap-year-s2">Q1 2022</h6>
+                                    <h5 class="title title-sm roadmap-date">Jan - Apr 2022</h5>
+                                    <div class="roadmap-text">
+                                        <p>Release of the initial versions of operational applications and smart contracts.</p>
+                                    </div>
+                                </div>
+                                <div class="roadmap roadmap-s2 roadmap-i6">
+                                    <h6 class="roadmap-year-s2">Q2 2022</h6>
+                                    <h5 class="title title-sm roadmap-date">Jul - Aug 2022</h5>
+                                    <div class="roadmap-text">
+                                        <p>Creation of a decentralize martketplace to neural network adjacent coefficients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+           
+                </div>
+
+            </section>
+            <section class="section" id="setting">
+
+                <div class="container">
+                    <!-- Block @s -->
+                    <div class="nk-block nk-block-about">
+                        <div class="row justify-content-between align-items-center gutter-vr-50px">
+                            <div class="col-lg-6">
+                                <div class="nk-block-text">
+                                    <div class="nk-block-text-head">
+                                        <h2 class="title title-lg ttu animated" data-animate="fadeInUp" data-delay="0.7">Contact Us</h2>
+                                        <p class="animated" data-animate="fadeInUp" data-delay="0.8">We are always open and we welcome and questions you have for our team. If you wish to get in touch, please fill out the form below. Someone from our team will get back to you shortly.</p>
+                                    </div>
+                                    <form class="nk-form-submit" action="form/contact.php" method="post">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="field-item animated" data-animate="fadeInUp" data-delay="0.8">
+                                                    <label class="field-label ttu">Your Name</label>
+                                                    <div class="field-wrap">
+                                                        <input name="contact-name" placeholder="Introduce yourself" type="text" class="input-bordered required">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="field-item animated" data-animate="fadeInUp" data-delay="0.9">
+                                                    <label class="field-label ttu">Your Email</label>
+                                                    <div class="field-wrap">
+                                                        <input name="contact-email" placeholder="Who do we replay to" type="email" class="input-bordered required email">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="field-item animated" data-animate="fadeInUp" data-delay="1.0">
+                                            <label class="field-label ttu">Your Message</label>
+                                            <div class="field-wrap">
+                                                <textarea name="contact-message" placeholder="Leave your question or comment here" class="input-bordered input-textarea required"></textarea>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="d-none" name="form-anti-honeypot" value="">
+                                        <div class="row">
+                                            <div class="col-sm-5 text-right animated" data-animate="fadeInUp" data-delay="1.1">
+                                                <button type="submit" class="btn btn-round btn-primary">SEND</button>
+                                            </div>
+                                            <div class="col-sm-7 order-sm-first">
+                                                <div class="form-results"></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 text-center order-lg-first">
+                                <div class="nk-block-contact nk-block-contact-s1  animated" data-animate="fadeInUp" data-delay="0.1">
+                                    <ul class="contact-list">
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.3">
+                                            <em class="contact-icon fas fa-envelope"></em>
+                                            <div class="contact-text">
+                                                <span>info@metagon.network</span>
+                                            </div>
+                                        </li>
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.4">
+                                            <em class="contact-icon fas fa-paper-plane"></em>
+                                            <div class="contact-text">
+                                                <span>Join us on Telegram</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="nk-circle-animation nk-df-center white small"></div><!-- .circle-animation -->
+                                </div>
+                                
+                                <ul class="social-links social-links-s2 justify-content-center animated" data-animate="fadeInUp" data-delay="0.6">
+                                    <li><a href="https://twitter.com/MetagonNetwork"><em class="fab fa-twitter"></em></a></li>
+                                    <li><a href="#"><em class="fab fa-github"></em></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- .block @e -->
+                </div>
+            </section>
+	        
+        </main>
+        
+        <footer class="nk-footer-bar section section-s tc-light">
+            <div class="container container-xxl">
+                <div class="row gutter-vr-10px">
+                    <div class="col-lg-6 order-lg-last text-lg-right">
+                        <ul class="footer-nav">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of sales</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="copyright-text copyright-text-s2">Copyright © 2021 CHLD.</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <div class="nk-ovm nk-ovm-repeat nk-ovm-fixed shape-i">
+            <div class="ovm-line"></div>
+        </div>
+	</div>
+   
+    
+    
+	<!-- preloader -->
+	<div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="images/childtoken_logo.png" alt=""></span></div>
+	
+	<!-- JavaScript -->
+    <script src="assets/js/web3.js"></script>
+    <script src="assets/js/app.js"></script>
+	<script src="assets/js/jquery.bundle.js?ver=1930"></script>
+	<script src="assets/js/scripts.js?ver=1930"></script>
+	<script src="assets/js/charts.js"></script>
+</body>
+<script>
+    $( document ).ready(function() {
+        $('#raised').html("20 BNB")
+        $('#target').html("20000 BNB")
+        $('#enddate').attr('data-date', "2021/07/21");
+        // $('#progressbar').attr('data-percent', 50);
+        $("#progressbar").css('width', 50 + '%');
+        $("#progressbar").css('right', 50 + '%');
+        NioApp.Plugins.countdown();
+
+    });
+</script>
+</html>
